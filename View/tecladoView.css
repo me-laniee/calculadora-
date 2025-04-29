@@ -1,11 +1,9 @@
 .teclado {
-    padding: 1rem;
-
+    
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat (5,9rem);
-    gap:1rem;
-
+    grid-template-rows: repeat(5,10rem);
+    padding: 1rem;
 }
 
 .teclas {
@@ -14,14 +12,14 @@
     border-radius: 3px;
 
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 .teclas:hover{
-    background-color: rgb(233, 70, 233);
+    background-color: rgb(238, 47, 255);
 }
+
 
 .tecla-0 {
     grid-column: 1/3;
